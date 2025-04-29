@@ -1,0 +1,21 @@
+{
+  "name": "shreder-benchmarking",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "npm run build && node dist/index.js"
+  },
+  "author": "Shreder XYZ",
+  "license": "MIT",
+  "description": "Shreder x Geyser benchmark",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@shreder_xyz/grpc-client": "^0.0.4",
+    "@triton-one/yellowstone-grpc": "^4.0.2",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.5.0"
+  }
+}
