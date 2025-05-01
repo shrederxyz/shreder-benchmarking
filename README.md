@@ -26,7 +26,7 @@ Before you begin, make sure you have the following installed:
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/shrederxyz/shreder-benchmark.git
+    git clone https://github.com/shrederxyz/shreder-benchmarking.git
     ```
 
 2.  **Install dependencies**
